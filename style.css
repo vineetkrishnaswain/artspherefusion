@@ -85,4 +85,60 @@ nav a:hover {
     font-size: 0.9rem;
   }
 }
+
+.contact {
+  background: rgba(0,0,0,0.5);
+  padding: 60px 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.contact-text {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #ddd;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.contact textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact button {
+  padding: 12px;
+  background: #f0c987;
+  color: #1a1a2e;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background: #ffd700;
+}
+
+.contact-email {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
     
